@@ -10,6 +10,7 @@ export default function PortfolioContainer() {
 
   //function that determines which page will be rendered
 
+  
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
